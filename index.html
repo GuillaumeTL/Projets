@@ -1,18 +1,433 @@
+```html
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
+
+    <title>Guillaume THOMAS-LEVASTRE | Ingénieur en Conception Mécanique</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Bienvenue sur mon portfolio</h1>
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
 
-    <h2>Mes projets</h2>
+    <nav>
+        <div class="nav-container">
 
-    <p>Voici une présentation de mes différents projets.</p>
+            <div class="logo">
+                Guillaume THOMAS-LEVASTRE
+            </div>
+
+            <div class="nav-links">
+                <a href="#about">À propos</a>
+                <a href="#projects">Projets</a>
+                <a href="#skills">Compétences</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- =========================
+         SECTION INTRODUCTION
+    ========================== -->
+
+    <header class="hero">
+
+        <div class="hero-content">
+
+            <p class="eyebrow">
+                INGÉNIEUR EN CONCEPTION MÉCANIQUE
+            </p>
+
+            <h1>
+                Guillaume<br>
+                THOMAS-LEVASTRE
+            </h1>
+
+            <p class="intro">
+                Issu d'une formation en CPGE MPSI/MP, je suis ingénieur
+                spécialisé en conception mécanique.
+            </p>
+
+            <a href="#projects" class="button">
+                Découvrir mes projets
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         À PROPOS
+    ========================== -->
+
+    <section id="about" class="section">
+
+        <div class="section-title">
+
+            <span>01</span>
+
+            <h2>À propos</h2>
+
+        </div>
+
+        <div class="about-content">
+
+            <div>
+                <p>
+                    Après une formation en classe préparatoire MPSI/MP,
+                    j'ai poursuivi mon parcours dans le domaine de
+                    l'ingénierie et de la conception mécanique.
+                </p>
+
+                <p>
+                    Ce portfolio présente une sélection de projets réalisés
+                    au cours de ma formation et de mes expériences.
+                    Il permet de mettre en avant les différentes étapes
+                    de conception, de développement et de réalisation.
+                </p>
+            </div>
+
+            <div class="about-details">
+
+                <div>
+                    <span>Formation</span>
+                    <strong>CPGE MPSI / MP</strong>
+                </div>
+
+                <div>
+                    <span>Domaine</span>
+                    <strong>Conception mécanique</strong>
+                </div>
+
+                <div>
+                    <span>Profil</span>
+                    <strong>Ingénieur</strong>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PROJETS
+    ========================== -->
+
+    <section id="projects" class="section projects-section">
+
+        <div class="section-title">
+
+            <span>02</span>
+
+            <h2>Mes projets</h2>
+
+        </div>
+
+        <p class="section-intro">
+            Une sélection de projets illustrant différentes problématiques
+            de conception mécanique et de développement.
+        </p>
+
+
+        <!-- PROJET 1 -->
+
+        <article class="project">
+
+            <div class="project-image">
+
+                <img src="images/projet1.jpg" alt="Projet 1">
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-number">PROJET 01</span>
+
+                <h3>Titre du projet 1</h3>
+
+                <p>
+                    Description projet 1. Présenter ici brièvement le contexte
+                    du projet, la problématique rencontrée et l'objectif
+                    recherché.
+                </p>
+
+                <p>
+                    Décrire ici les différentes étapes de conception,
+                    les choix techniques réalisés et les éventuelles
+                    contraintes prises en compte.
+                </p>
+
+                <div class="project-info">
+
+                    <div>
+                        <span>Logiciels</span>
+                        <strong>Logiciel 1 · Logiciel 2</strong>
+                    </div>
+
+                    <div>
+                        <span>Compétences</span>
+                        <strong>Conception · CAO · Dimensionnement</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJET 2 -->
+
+        <article class="project project-reverse">
+
+            <div class="project-image">
+
+                <img src="images/projet2.jpg" alt="Projet 2">
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-number">PROJET 02</span>
+
+                <h3>Titre du projet 2</h3>
+
+                <p>
+                    Description projet 2. Présenter ici le contexte et
+                    les objectifs principaux du projet.
+                </p>
+
+                <p>
+                    Décrire ici votre démarche, les choix de conception
+                    et les résultats obtenus.
+                </p>
+
+                <div class="project-info">
+
+                    <div>
+                        <span>Logiciels</span>
+                        <strong>Logiciel 1 · Logiciel 2</strong>
+                    </div>
+
+                    <div>
+                        <span>Compétences</span>
+                        <strong>Conception · CAO · Fabrication</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJET 3 -->
+
+        <article class="project">
+
+            <div class="project-image">
+
+                <img src="images/projet3.jpg" alt="Projet 3">
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-number">PROJET 03</span>
+
+                <h3>Titre du projet 3</h3>
+
+                <p>
+                    Description projet 3. Présenter ici le contexte,
+                    la problématique et les objectifs du projet.
+                </p>
+
+                <p>
+                    Décrire ici les solutions étudiées, les choix réalisés
+                    et le résultat final.
+                </p>
+
+                <div class="project-info">
+
+                    <div>
+                        <span>Logiciels</span>
+                        <strong>Logiciel 1 · Logiciel 2</strong>
+                    </div>
+
+                    <div>
+                        <span>Compétences</span>
+                        <strong>Conception · Calcul · Prototypage</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJET 4 -->
+
+        <article class="project project-reverse">
+
+            <div class="project-image">
+
+                <img src="images/projet4.jpg" alt="Projet 4">
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-number">PROJET 04</span>
+
+                <h3>Titre du projet 4</h3>
+
+                <p>
+                    Description projet 4. Présenter ici les éléments
+                    importants du projet et son contexte.
+                </p>
+
+                <p>
+                    Présenter ici les choix techniques, les difficultés
+                    rencontrées et les résultats obtenus.
+                </p>
+
+                <div class="project-info">
+
+                    <div>
+                        <span>Logiciels</span>
+                        <strong>Logiciel 1 · Logiciel 2</strong>
+                    </div>
+
+                    <div>
+                        <span>Compétences</span>
+                        <strong>Conception · CAO · Industrialisation</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </section>
+
+
+    <!-- =========================
+         COMPÉTENCES
+    ========================== -->
+
+    <section id="skills" class="section">
+
+        <div class="section-title">
+
+            <span>03</span>
+
+            <h2>Compétences</h2>
+
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill">
+                <h3>Conception mécanique</h3>
+                <p>
+                    Description de vos compétences en conception,
+                    assemblage et développement de systèmes mécaniques.
+                </p>
+            </div>
+
+            <div class="skill">
+                <h3>CAO</h3>
+                <p>
+                    Logiciels de conception assistée par ordinateur
+                    utilisés au cours de votre formation et de vos projets.
+                </p>
+            </div>
+
+            <div class="skill">
+                <h3>Dimensionnement</h3>
+                <p>
+                    Calculs mécaniques, analyse des contraintes,
+                    choix des matériaux et validation des solutions.
+                </p>
+            </div>
+
+            <div class="skill">
+                <h3>Fabrication & prototypage</h3>
+                <p>
+                    Mise en œuvre, prototypage, fabrication et amélioration
+                    des solutions conçues.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
+    <section id="contact" class="contact-section">
+
+        <div class="section-title">
+
+            <span>04</span>
+
+            <h2>Contact</h2>
+
+        </div>
+
+        <p>
+            Pour toute question ou opportunité professionnelle,
+            n'hésitez pas à me contacter.
+        </p>
+
+        <div class="contact-links">
+
+            <a href="mailto:votre.email@email.com">
+                votre.email@email.com
+            </a>
+
+            <a href="#">
+                LinkedIn
+            </a>
+
+            <a href="#">
+                GitHub
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <p>
+            © 2026 Guillaume THOMAS-LEVASTRE
+        </p>
+
+    </footer>
 
 </body>
 </html>
+```
